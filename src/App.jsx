@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
 import Indicator from './Indicator'
 import Content from './Content'
 
 
 
 const App=()=> {
- <>
+  return(
+ <div>
  <header>
   <div className="container">
     <ul>
@@ -20,8 +21,9 @@ const App=()=> {
  <Content />
 
 
-    </>
-  
+
+    </div>
+  )
 }
 
 export default App
